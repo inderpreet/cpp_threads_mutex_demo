@@ -11,6 +11,7 @@
 #include "threads2.h"
 #include <mutex1.h>
 #include <arrays.h>
+#include <vectors.h>
 
 using namespace std;
 
@@ -29,7 +30,8 @@ int main(void){
     // Code for std::array
     //testArrays();
     //testArrays2();
-    testArrays3();
+    // testArrays3();
+    testVectors();
 
     return 0;
 }

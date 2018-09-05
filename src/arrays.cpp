@@ -9,6 +9,7 @@ void testArrays3(void){
 
     for(int &s : myList)
         std::cout<< s <<"\n";
+
 }
 
 void testArrays2(void){
@@ -29,6 +30,11 @@ void testArrays2(void){
         std::cout<< s << "\n\r";
 
     std::cout<<"No of elements :"<< mylist.size()<<"\n"<<mylist.at(9)<<"\n";
+
+    std::cout<<"\n\n\n";
+    for(auto i=mylist.begin() ; i!=mylist.end(); ++i)
+        std::cout<<*i<<"\t";
+    std::cout<<"\n\n";
 }
 
 void testArrays(void){
