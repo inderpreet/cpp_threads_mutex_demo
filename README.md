@@ -12,6 +12,8 @@ threads2.cpp - This file contains a demo app with CPP threads. I added the flags
 
 mutex1.cpp - This file contains a demo of mutexs and locks. There is one example I got from the internet which uses the lock_guard guard which means it automatically unlocks the mutex once the block ends. The other uses lock unlock which I wrote as a test and is typical in an embedded environment.
 
+arrays.cpp - This file experiments with std::array<type, length> name ; fixed size arrays
+
 ## Commands
 
 make clean - cleans

@@ -69,5 +69,5 @@ void testThreads(long num_threads){
 }
 
 void printHello(void){
-    printf("Testing Threads...\n\r\n\r");
+    printf("Testing ...\n\r\n\r");
 }
